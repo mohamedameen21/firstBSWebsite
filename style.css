@@ -1,0 +1,62 @@
+/* ***************************Hero Component***************************************** */
+
+.hero {
+    background: url(/images/bg-hero-mobile.svg) hsl(193, 100%, 96%);
+}
+
+@media screen and (min-width: 1400px) {
+    .logo {
+        max-width: 11rem;
+    }
+}
+
+.hero-button {
+    background-color: hsl(322, 100%, 66%);
+    padding: 0 2.5rem;
+}
+
+.hero-button:hover {
+    background-color: hsl(322, 67%, 77%);
+}
+
+@media screen and (min-width: 768px) {
+    .hero-button {
+        padding: 0.5rem 5rem;
+    }
+}
+
+.header {
+    text-align: center;
+}
+
+@media screen and (min-width:992px) {
+    .header {
+        text-align: left;
+    }
+}
+
+
+/* ************************************************************************************************************* */
+
+
+.feature-card {
+    border-radius: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width:992px) {
+    .feature-card {
+        text-align: start;
+    }
+}
+
+
+/* ************************************************************************************************************* */
+
+.footer--link:hover{
+    text-decoration: underline;
+}
+
+.social-icon:hover{
+    filter: invert(56%) sepia(27%) saturate(7369%) hue-rotate(294deg) brightness(102%) contrast(101%);
+}
